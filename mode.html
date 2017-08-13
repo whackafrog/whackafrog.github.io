@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhackAFrog</title>
+<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<link href="ubuntufont.css" rel="stylesheet">
+<style>
+body {
+  background-color: #1695E0;
+  background-image: url("water.png");
+  background-repeat: repeat;
+}
+h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: red;
+}
+div {
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.choosetext {
+  font-size: 200%;
+  color: red;
+}
+</style>
+</head>
+<body>
+<div>
+  <h1>WhackAFrog</h1>
+  <script>
+  function easy() {
+   window.location = "./index.html#!easy";
+  }
+  function medium() {
+   window.location = "./index.html#!medium";
+  }
+  function hard() {
+   window.location = "./index.html#!hard";
+  }
+  function extrahard() {
+   window.location = "./index.html#!extrahard";
+  }
+  function extremelyhard() {
+   window.location = "./index.html#!extremelyhard";
+  }
+  </script>
+  <p onclick="easy()" class="choosetext">Easy</p>
+  <p onclick="medium()" class="choosetext">Medium</p>
+  <p onclick="hard()" class="choosetext">Hard</p>
+  <p onclick="extrahard()" class="choosetext">Extra Hard</p>
+  <p onclick="extremelyhard()" class="choosetext">Extremely hard</p>
+</div>
+</body>
+</html>

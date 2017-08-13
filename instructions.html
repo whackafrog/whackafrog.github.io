@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhackAFrog</title>
+<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<link href="ubuntufont.css" rel="stylesheet">
+<style>
+body {
+  background-color: #1695E0;
+  background-image: url("water.png");
+  background-repeat: repeat;
+}
+h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: red;
+}
+div {
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.choosetext {
+  font-size: 200%;
+  color: red;
+}
+</style>
+</head>
+<body>
+<div>
+  <h1>WhackAFrog</h1>
+  <script>
+  function back() {
+   window.location = "index.html";
+  }
+  </script>
+  <p>Each time the frog plays, a number will be played shortly after. You then have to press that number, either on-screen, with the numbers across your keyboard from 1-9 or using the number pad to the right side of your keyboard however, fly noises will randomly play and a fly will fly across your screen. You get 2 points for hitting the frog and 1 for missing or leaving it too long. You get anywhere from 2 to 4 seconds, depending on the mode you choose and in the extra hard and extremely hard modes you have to whack the last number to play.</p>
+  <p onclick="back()" class="choosetext">Back</p>
+</div>
+</body>
+</html>
