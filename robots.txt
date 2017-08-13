@@ -1,7 +1,5 @@
 User-agent: *
-Disallow: /play.html
 Disallow: /mode.html
 Disallow: /instructions.html
 Disallow: /whackafrogsetup.exe
-Disallow: /whackafrogmac.tar.gz
-Disallow: /whackafrogmac.tar
+Disallow: /whackafrogmac.zip
